@@ -5,6 +5,10 @@ amazon:
 
 management:
   endpoints:
+    shutdown:
+      id: kill
+    metrics:
+      enabled: false
     web:
       exposure:
         include: beans, conditions, mappings, health, info, env, metrics
